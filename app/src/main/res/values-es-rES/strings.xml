@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplicación multi idioma</string>
+    <string name="navigation_drawer_open">Cajón de navegación abierto.</string>
+    <string name="navigation_drawer_close">Cerrar el cajon de navegacion</string>
+    <string name="nav_header_title">Android Wave</string>
+    <string name="nav_header_subtitle">androidwave.com</string>
+    <string name="nav_header_desc">Android &amp; Blog del desarrollador de iOS</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="description_androidwave">Demostramos android &amp; Tutoriales de desarrollo de aplicaciones iOS para Firebase, Camera2 API, Exo Player, Youtube API, Dagger2, RxJava, MVVM, MVP, Realm y más</string>
+</resources>
