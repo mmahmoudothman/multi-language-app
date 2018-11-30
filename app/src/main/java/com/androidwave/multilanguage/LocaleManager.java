@@ -17,12 +17,12 @@ public class LocaleManager {
     /**
      * for hindi locale
      */
-    public static final String LANGUAGE_KEY_HINDI = "hi-rIN";
+    public static final String LANGUAGE_KEY_HINDI = "hi";
     /***
      * // for spanish locale
      */
 
-    public static final String LANGUAGE_KEY_SPANISH = "es-rES";
+    public static final String LANGUAGE_KEY_SPANISH = "es";
     /**
      *  SharedPreferences Key
      */

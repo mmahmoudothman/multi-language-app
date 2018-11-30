@@ -7,4 +7,16 @@
     <string name="nav_header_desc">Android &amp; iOS Developer Blog</string>
     <string name="action_settings">Settings</string>
     <string name="description_androidwave">We demonstrate android &amp; iOS app development tutorials for Firebase, Camera2 API, Exo Player, Youtube API, Dagger2, RxJava, MVVM, MVP, Realm, and more.</string>
+    <string name="text_hindi" translatable="false">हिंदी</string>
+    <string name="text_english" translatable="false">English</string>
+    <string name="text_spanish" translatable="false">" Español"</string>
+
+    <!-- Navigation Menu-->
+    <string name="title_import">Import</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="title_slideshow">Slideshow</string>
+    <string name="title_tools">Tools</string>
+    <string name="title_communication">Communicate</string>
+    <string name="title_share">Share</string>
+    <string name="title_send">Send</string>
 </resources>

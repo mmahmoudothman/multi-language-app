@@ -3,7 +3,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_settings"
+        android:icon="@drawable/translation"
         android:orderInCategory="100"
         android:title="@string/action_settings"
-        app:showAsAction="never" />
+        app:showAsAction="always">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+
+            <item
+                android:id="@+id/local_english"
+                android:title="@string/text_english" />
+            <item
+                android:id="@+id/local_hindi"
+                android:title="@string/text_hindi" />
+            <item
+                android:id="@+id/local_spanish"
+                android:title="@string/text_spanish" />
+        </menu>
+    </item>
 </menu>
