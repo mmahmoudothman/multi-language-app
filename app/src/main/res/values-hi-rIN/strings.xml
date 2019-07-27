@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">बहु भाषा ऐप</string>
-    <string name="navigation_drawer_open">नेविगेशन ड्रावर को खोले</string>
-    <string name="navigation_drawer_close">नेविगेशन ड्रावर को बंद करें </string>
-    <string name="nav_header_title">एंड्रॉइड वेव</string>
-    <string name="nav_header_subtitle">androidwave.com</string>
-    <string name="nav_header_desc">एंड्रॉइड और आईओएस डेवलपर ब्लॉग</string>
-    <string name="action_settings">सेटिंग</string>
-    <string name="description_androidwave">हम फायरबेस, कैमरा 2 एपीआई, एक्सो प्लेयर, यूट्यूब एपीआई, डैगर 2, आरएक्सजेवा, एमवीवीएम, एमवीपी, दायरे, आदि के लिए एंड्रॉइड और आईओएस ऐप डेवलपमेंट ट्यूटोरियल का प्रदर्शन करते हैं।</string>
-    <!-- Navigation Menu-->
-    <string name="title_import">आयात</string>
-    <string name="title_gallery">गैलरी</string>
-    <string name="title_slideshow">स्लाइड शो</string>
-    <string name="title_tools">उपकरण</string>
-    <string name="title_communication">संवाद</string>
-    <string name="title_share">शेयर</string>
-    <string name="title_send">भेजना</string>
+  <string name="app_name">बहु भाषा ऐप</string>
+  <string name="navigation_drawer_open">नेविगेशन ड्रावर को खोले</string>
+  <string name="navigation_drawer_close">नेविगेशन ड्रावर को बंद करें </string>
+  <string name="nav_header_title">एंड्रॉइड वेव</string>
+  <string name="nav_header_subtitle">androidwave.com</string>
+  <string name="nav_header_desc">एंड्रॉइड और आईओएस डेवलपर ब्लॉग</string>
+  <string name="action_settings">सेटिंग</string>
+  <string name="description_androidwave">हम फायरबेस, कैमरा 2 एपीआई, एक्सो प्लेयर, यूट्यूब एपीआई, डैगर 2, आरएक्सजेवा,
+    एमवीवीएम, एमवीपी, दायरे, आदि के लिए एंड्रॉइड और आईओएस ऐप डेवलपमेंट ट्यूटोरियल का प्रदर्शन करते हैं।</string>
+  <!-- Navigation Menu-->
+  <string name="title_import">आयात</string>
+  <string name="title_gallery">गैलरी</string>
+  <string name="title_slideshow">स्लाइड शो</string>
+  <string name="title_tools">उपकरण</string>
+  <string name="title_communication">संवाद</string>
+  <string name="title_share">शेयर</string>
+  <string name="title_send">भेजना</string>
 </resources>
