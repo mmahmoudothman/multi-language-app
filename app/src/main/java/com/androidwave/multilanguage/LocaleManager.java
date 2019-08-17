@@ -6,22 +6,23 @@ import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.os.Build;
 import android.preference.PreferenceManager;
+import androidx.annotation.StringDef;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
 import java.util.Locale;
 
 public class LocaleManager {
-  /**
-   * For english locale
-   */
-  public static final String LANGUAGE_KEY_ENGLISH = "en";
-  /**
-   * for hindi locale
-   */
-  public static final String LANGUAGE_KEY_HINDI = "hi";
-  /***
-   * // for spanish locale
-   */
 
-  public static final String LANGUAGE_KEY_SPANISH = "es";
+  @Retention(RetentionPolicy.SOURCE)
+  @StringDef({ ENGLISH, HINDI, SPANISH })
+  public @interface LocaleDef {
+    String[] SUPPORTED_LOCALES = { ENGLISH, HINDI, SPANISH };
+  }
+
+  static final String ENGLISH = "en";
+  static final String HINDI = "hi";
+  static final String SPANISH = "es";
+
   /**
    * SharedPreferences Key
    */
@@ -37,9 +38,9 @@ public class LocaleManager {
   /**
    * Set new Locale with context
    */
-  public static Context setNewLocale(Context mContext, String mLocaleKey) {
-    setLanguagePref(mContext, mLocaleKey);
-    return updateResources(mContext, mLocaleKey);
+  public static Context setNewLocale(Context mContext, @LocaleDef String language) {
+    setLanguagePref(mContext, language);
+    return updateResources(mContext, language);
   }
 
   /**
@@ -50,7 +51,7 @@ public class LocaleManager {
    */
   public static String getLanguagePref(Context mContext) {
     SharedPreferences mPreferences = PreferenceManager.getDefaultSharedPreferences(mContext);
-    return mPreferences.getString(LANGUAGE_KEY, LANGUAGE_KEY_ENGLISH);
+    return mPreferences.getString(LANGUAGE_KEY, ENGLISH);
   }
 
   /**
@@ -58,7 +59,7 @@ public class LocaleManager {
    */
   private static void setLanguagePref(Context mContext, String localeKey) {
     SharedPreferences mPreferences = PreferenceManager.getDefaultSharedPreferences(mContext);
-    mPreferences.edit().putString(LANGUAGE_KEY, localeKey).commit();
+    mPreferences.edit().putString(LANGUAGE_KEY, localeKey).apply();
   }
 
   /**
